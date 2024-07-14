@@ -1,0 +1,51 @@
+import 'package:get/route_manager.dart';
+
+class Consts extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        "en_UK": {
+          "err": "Server error, please try later!",
+          "search": "Search",
+          "temprature": "Temprature:",
+          "feels_like": "Feels Like:",
+          "conditions": "Conditions:",
+          "time": "Time:",
+          "cloud_cover": "Cloud Cover",
+          "wind_speed": "Wind Speed",
+          "km_h": "km/h",
+          "Humidity": "Humidity",
+          "hourly_forecast": "3 Hourly-Forecast",
+          "next_days": "Next 16 Days >",
+          "humidity": "Humidity:",
+          "settings": "Settings",
+          "language": "Language",
+          "eng": "English",
+          "hin": "Hindi",
+          "temp_unit": "Temprature Unit",
+          "cel": "Celsius",
+          "fah": "Fahrenheit",
+        },
+        "hi_in": {
+          "err": "सर्वर त्रुटि, कृपया बाद में प्रयास करें!",
+          "search": "ढूँढ",
+          "temprature": "तापमान:",
+          "feels_like": "ऐसा लगता है:",
+          "conditions": "शर्तों:",
+          "time": "समय:",
+          "cloud_cover": "क्लाउड कवर",
+          "wind_speed": "हवा की गति",
+          "km_h": "किमी/घंटा",
+          "Humidity": "नमी",
+          "hourly_forecast": "3 प्रति घंटा पूर्वानुमान",
+          "next_days": "अगले 16 दिन >",
+          "humidity": "नमी:",
+          "settings": "सेटिंग्स",
+          "language": "भाषा",
+          "eng": "अंग्रेज़ी",
+          "hin": "हिंदी",
+          "temp_unit": "टेम्परेचर यूनिट",
+          "cel": "सेल्सियस",
+          "fah": "फ़ारेनहाइट",
+        },
+      };
+}
